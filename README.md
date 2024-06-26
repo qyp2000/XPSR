@@ -76,7 +76,7 @@ This process requires a lot of time, and we suggest that you use as many GPUs as
 
 #### Step4: Run code
 ```
-python train.py
+CUDA_VISIBLE_DEVICES="0,1,2,3,4,5,6,7," accelerate launch train_vae.py
 ```
 You can modify the parameters in `xpsr.yaml` to adapt to your specific need, such as the `train_batch_size` and the `learning_rate`.
 
