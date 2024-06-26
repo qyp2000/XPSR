@@ -92,7 +92,7 @@ If our work is useful for your research, please consider citing:
 }
 ```
 ## Contact
-The construction of the codes are relatively rushed, and there may be many problems.
+The reorganization of the codes are rushed, and there may be many problems.
 Please feel free to contact: `qyp21@mails.tsinghua.edu.cn`. 
 I am very pleased to communicate with you and will maintain this repository during my free time.
 
