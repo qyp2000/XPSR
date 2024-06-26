@@ -1,0 +1,15 @@
+accelerate
+basicsr==1.4.2
+diffusers==0.21.4
+einops==0.7.0
+huggingface-hub==0.20.2
+loralib
+opencv-python==4.9.0.80
+pytorch_lightning
+pydantic==1.10.11
+pyiqa==0.1.10
+torch==2.1.2
+tqdm==4.66.1
+transformers==4.36.2
+wandb==0.16.2
+xformers

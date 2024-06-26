@@ -1,0 +1,16 @@
+pretrained_model_path: checkpoints/stable-diffusion-v1-5 #checkpoints/stable-diffusion-v1-5 checkpoints/stable-diffusion-2-1-base
+xpsr_model_path: runs/xpsr/checkpoint-300000
+latest: False
+control_type: realisr
+mixed_precision: "no" #fp16
+added_prompt: clean, high-resolution, 8k, high quality, clear text.
+negative_prompt: blurry, dotted, noise, raster lines, unclear, lowres, over-smoothed.
+image_path: testset
+guidance_scale: 4.5
+conditioning_scale: 1.0
+blending_alpha: 1.0
+multiplier: 0.6
+num_inference_steps: 20
+process_size: 512
+upscale: 4
+init_latent_with_noise: False

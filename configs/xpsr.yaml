@@ -1,0 +1,41 @@
+dataset_name: xpsr
+tracker_project_name: diffusion
+pretrained_model_name_or_path: checkpoints/stable-diffusion-v1-5 #checkpoints/stable-diffusion-v1-5 checkpoints/stable-diffusion-2-1-base
+
+output_dir: runs/xpsr
+report_to: wandb #wandb tensorboard
+#resume_from_checkpoint: latest
+
+resolution: 512
+learning_rate: !!float 3e-5
+gradient_accumulation_steps: 2
+train_batch_size: 2
+num_train_epochs: 12
+enable_xformers_memory_efficient_attention: True
+checkpointing_steps: 50000
+control_type: realisr
+mixed_precision: fp16
+dataloader_num_workers: 64
+
+trainable_modules: ["pixel_attentions", "attentions_lowlevel", "attentions_connect"]
+
+num_validation_images: 4
+
+scale_lr: False
+lr_scheduler: constant
+lr_num_cycles: 1
+lr_warmup_steps: 500
+lr_power: 1.0
+gradient_checkpointing: False
+use_8bit_adam: False
+adam_beta1: 0.9
+adam_beta2: 0.999
+adam_weight_decay: !!float 1e-2
+adam_epsilon: !!float 1e-8
+max_grad_norm: 1.0
+push_to_hub: False
+logging_dir: logs
+allow_tf32: False
+set_grads_to_none: False
+
+valid_image_path: /home/quyunpeng/mllm/examples
