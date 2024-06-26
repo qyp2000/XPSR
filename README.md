@@ -1,6 +1,6 @@
 ## XPSR
 
-<a href='https://arxiv.org/abs/2403.05049'><img src='https://img.shields.io/badge/arXiv-2311.16518-b31b1b.svg'></a> &nbsp;&nbsp;
+<a href='https://arxiv.org/abs/2403.05049'><img src='https://img.shields.io/badge/arXiv-2403.05049-b31b1b.svg'></a> &nbsp;&nbsp;
 
 [Yunpeng Qu]<sup>1,2</sup> | [Kun Yuan]<sup>2</sup> | [Kai Zhao]<sup>2</sup> | [Qizhi Xie]<sup>1,2</sup> | [Jinhua Hao]<sup>2</sup> | [Ming Sun]<sup>2</sup> | [Chao Zhou]<sup>2</sup>
 
