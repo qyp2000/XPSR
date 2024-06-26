@@ -92,7 +92,9 @@ If our work is useful for your research, please consider citing:
 }
 ```
 ## Contact
-Please feel free to contact: `qyp21@mails.tsinghua.edu.cn`. I am very happy to communicate with you and will maintain this repository during my free time.
+The construction of the codes are relatively rushed, and there may be many problems.
+Please feel free to contact: `qyp21@mails.tsinghua.edu.cn`. 
+I am very pleased to communicate with you and will maintain this repository during my free time.
 
 ## Acknowledgments
 Some codes are brought from [PASD](https://github.com/yangxy/PASD) and [SeeSR](https://github.com/cswry/SeeSR). Thanks for their excellent works.
