@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ## Inference
 #### Step 1: Download the pretrained models and test data
 - Download SD-v1.5 models from [huggingface](https://huggingface.co/runwayml/stable-diffusion-v1-5) and put them into ``checkpoints/stable-diffusion-v1-5``.
-- Download pretrained XPSR model from [OneDrive](https://drive.google.com/drive/folders/1rzlHjp6DuiD7timULeDvmxSQignnMywS?usp=sharing) and put it into ``runs/xpsr``.
+- Download pretrained XPSR model from [GoogleDrive](https://drive.google.com/drive/folders/1rzlHjp6DuiD7timULeDvmxSQignnMywS?usp=sharing) and put it into ``runs/xpsr``.
 - Prepare testing images in the `testset`.
 
 #### Step 2: Generate highlevel and lowlevel prompts
