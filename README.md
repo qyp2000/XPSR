@@ -47,7 +47,7 @@ You can also download the two MLLMs in advance and place them into ``checkpoints
 ```
 python test.py
 ```
-You can modify the parameters in `xpsr.yaml` to adapt to your specific need, such as the `guidance_scale` and the `num_inference_steps`.
+You can modify the parameters in `configs/xpsr_test.yaml` to adapt to your specific need, such as the `guidance_scale` and the `num_inference_steps`.
 
 ## Train 
 
@@ -79,7 +79,7 @@ This process requires a lot of time, and we suggest that you use as many GPUs as
 ```
 CUDA_VISIBLE_DEVICES="0,1,2,3,4,5,6,7," accelerate launch train.py
 ```
-You can modify the parameters in `xpsr.yaml` to adapt to your specific need, such as the `train_batch_size` and the `learning_rate`.
+You can modify the parameters in `configs/xpsr.yaml` to adapt to your specific need, such as the `train_batch_size` and the `learning_rate`.
 
 
 ## Citations
